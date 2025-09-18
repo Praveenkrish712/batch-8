@@ -33,3 +33,44 @@ input and label
 
 12) sematic Tags
 header, footer, nav, section, aside     
+
+
+
+CSS - cascading style sheet
+
+1) types of css
+i - inline
+ii - internal
+iii - enternal
+
+inline > internal > external
+
+2) CSS Synatx
+selector{
+    property:value;
+}
+
+3) Types of Selectors
+i - Element selector h1, p
+ii - Class selector (.) multiple
+iii - id selector (#) unique
+iv - universal selector (*)
+v - group selector (h1,h2,p)
+
+4) colors and Background
+background-color : lightblue;
+background-image : url(");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+5) text Styling
+    font- family : times new roman;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-weight: bolder;
+    line-height: 1.7;
+    letter-spacing: 100px;
+

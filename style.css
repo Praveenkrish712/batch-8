@@ -1,0 +1,35 @@
+* {
+    /* background-color: firebrick; */
+
+}
+
+.one>h1 {
+    color: hotpink;
+}
+
+#two>h1 {
+    color: green;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-weight: bolder;
+    line-height: 1.7;
+    letter-spacing: 100px;
+
+}
+
+.three>h1,
+.three>h2,
+.three>p {
+    color: darkorange;
+}
+
+.box>p {
+    background-image: url(./Assets/images.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
