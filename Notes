@@ -74,3 +74,15 @@ background-position: center;
     line-height: 1.7;
     letter-spacing: 100px;
 
+6) Box modeling
+margin, padding, border and content
+
+7) flex 
+
+flex direction - row, row-reverse, column, column-reverse
+
+justtfy content (X) - start, center, end, space-between, space-evenly, space-around
+
+align-items (y) - start, center, end
+
+flex-wrap - no wrap, wrap, wrap-reverse
