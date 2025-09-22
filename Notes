@@ -86,3 +86,18 @@ justtfy content (X) - start, center, end, space-between, space-evenly, space-aro
 align-items (y) - start, center, end
 
 flex-wrap - no wrap, wrap, wrap-reverse
+
+Align-content (y)  (flex-wrap only enable then only align content will act) - start, center, end, Space-around, space-between, space-evenly
+
+flex(on items) - flex:1 (grow)
+
+gap - values
+
+order - change the visual order of flex property....
+
+8) Positioning
+i - static - default
+ii - Relative - move to some places
+iii - Absolute - along with non - static parents
+iv - fixed - fixed to the web page
+v - sticky -
