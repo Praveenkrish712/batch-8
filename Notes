@@ -1,83 +1,81 @@
 HTML - hyper text markup language
 
-* web Page - to create
-* Not a programming language
-* its a markup language
-* Every website starts with HTML
+- web Page - to create
+- Not a programming language
+- its a markup language
+- Every website starts with HTML
 
-1) Heading - p
- h1 to h6
+1. Heading - p
+   h1 to h6
 
-2) Paragraph - p
+2. Paragraph - p
 
-3) hr
+3. hr
 
-4) br
+4. br
 
-5) text formating
-b or strong, mark, i, sub, sup and u
+5. text formating
+   b or strong, mark, i, sub, sup and u
 
-6) Anchor tag - a
+6. Anchor tag - a
 
-7) image tag - img
+7. image tag - img
 
-8) list - two 
-order list and unorder list
+8. list - two
+   order list and unorder list
 
-9) tables - table < tr < th and td
+9. tables - table < tr < th and td
 
-10) forms 
-input and label
+10. forms
+    input and label
 
-11) media tags - video and audio
+11. media tags - video and audio
 
-12) sematic Tags
-header, footer, nav, section, aside     
-
-
+12. sematic Tags
+    header, footer, nav, section, aside
 
 CSS - cascading style sheet
 
-1) types of css
-i - inline
-ii - internal
-iii - enternal
+1. types of css
+   i - inline
+   ii - internal
+   iii - enternal
 
 inline > internal > external
 
-2) CSS Synatx
-selector{
-    property:value;
-}
+2. CSS Synatx
+   selector{
+   property:value;
+   }
 
-3) Types of Selectors
-i - Element selector h1, p
-ii - Class selector (.) multiple
-iii - id selector (#) unique
-iv - universal selector (*)
-v - group selector (h1,h2,p)
+3. Types of Selectors
+   i - Element selector h1, p
+   ii - Class selector (.) multiple
+   iii - id selector (#) unique
+   iv - universal selector (\*)
+   v - group selector (h1,h2,p)
 
-4) colors and Background
-background-color : lightblue;
-background-image : url(");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+4. colors and Background
+   background-color : lightblue;
+   background-image : url(");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 
-5) text Styling
-    font- family : times new roman;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: line-through;
-    font-weight: bolder;
-    line-height: 1.7;
-    letter-spacing: 100px;
+5. text Styling
+   font- family : times new roman;
+   font-size: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: line-through;
+   font-weight: bolder;
+   line-height: 1.7;
+   letter-spacing: 100px;
 
-6) Box modeling
-margin, padding, border and content
+6. Box modeling
+   margin, padding, border and content
 
-7) flex 
+7. flex
 
 flex direction - row, row-reverse, column, column-reverse
 
@@ -87,7 +85,7 @@ align-items (y) - start, center, end
 
 flex-wrap - no wrap, wrap, wrap-reverse
 
-Align-content (y)  (flex-wrap only enable then only align content will act) - start, center, end, Space-around, space-between, space-evenly
+Align-content (y) (flex-wrap only enable then only align content will act) - start, center, end, Space-around, space-between, space-evenly
 
 flex(on items) - flex:1 (grow)
 
@@ -95,9 +93,12 @@ gap - values
 
 order - change the visual order of flex property....
 
-8) Positioning
-i - static - default
-ii - Relative - move to some places
-iii - Absolute - along with non - static parents
-iv - fixed - fixed to the web page
-v - sticky -
+8. Positioning
+   i - static - default
+   ii - Relative - move to some places
+   iii - Absolute - along with non - static parents
+   iv - fixed - fixed to the web page
+   v - sticky -
+
+9. grid - 2 dimensional layout system.
+
