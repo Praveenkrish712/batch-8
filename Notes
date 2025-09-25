@@ -102,3 +102,9 @@ order - change the visual order of flex property....
 
 9. grid - 2 dimensional layout system.
 
+10. Transition and animation
+
+11. Media Queries
+    mobile - 320px to 600px
+    tab - 601px to 800px
+    lap - 801px and above

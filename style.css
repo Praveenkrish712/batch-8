@@ -230,9 +230,9 @@ body{
 .layout{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 100px 430px 100px;
+    grid-template-rows: 10vh 80vh 10vh;
     grid-template-areas: 
-    "h h h h h "
+    "h h h h h"
     "sb1 m m m sb2"
     "f f f f f";
 }
@@ -249,10 +249,71 @@ body{
     grid-area: m;
 }
 
-.sidebar2{
+.siderbar2{
     grid-area: sb2;
 }
 
 .footer{
     grid-area: f;
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    transition-duration: 5s;
+}
+
+.square:hover{
+    background-color: gold;
+    width: 600px;
+    transition-timing-function: linear;
+    transform: translateY(20px);
+}
+
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-radius:50%;
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+
+
+@keyframes circle {
+    50%{
+        background-color: gold;
+        width: 200px;
+        height: 200px;
+        left: 30px;
+    }
+
+    100%{
+        background-color: blue;
+        width: 300px;
+        height: 300px;
+        left: 100px;
+    }
+}
+
+
+@media (max-width:801px) {
+    .media > h1{
+        color: red;
+        background-color: gold  ;
+    } 
+}
+
+@media (max-width:700px) {
+    .paragraph > p{
+        width: 100%;
+        padding: 10px;
+        background-color: violet;
+    }
+    
 }
